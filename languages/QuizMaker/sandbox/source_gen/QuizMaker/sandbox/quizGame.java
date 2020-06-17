@@ -76,9 +76,11 @@ public class quizGame {
     public void update(float delta) {
       if (Gdx.input.isKeyPressed(Input.Keys.A)) {
         point.set(point.getX() - ((float) 4), point.getY());
+        sprite.setFlip(true, false);
       }
       if (Gdx.input.isKeyPressed(Input.Keys.D)) {
         point.set(point.getX() + ((float) 4), point.getY());
+        sprite.setFlip(false, false);
       }
       if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
         MyMini2DxGame.Bullet myBullet = new MyMini2DxGame.Bullet(point.getX(), point.getY());

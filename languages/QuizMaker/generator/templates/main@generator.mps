@@ -276,13 +276,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
   </registry>
   <node concept="bUwia" id="14BXDeHJmSA">
@@ -441,7 +434,7 @@
           <ref role="3uigEE" to="goua:~CollisionPoint" resolve="CollisionPoint" />
         </node>
       </node>
-      <node concept="2tJIrI" id="14BXDeHPfu7" role="jymVt" />
+      <node concept="2tJIrI" id="5fYIkivQ5RP" role="jymVt" />
       <node concept="312cEg" id="14BXDeHPfu8" role="jymVt">
         <property role="TrG5h" value="bulletManager" />
         <node concept="3uibUv" id="14BXDeHPfu9" role="1tU5fm">
@@ -1159,6 +1152,20 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="5fYIkivR8$t" role="3cqZAp">
+                <node concept="2OqwBi" id="5fYIkivR9nz" role="3clFbG">
+                  <node concept="37vLTw" id="5fYIkivR8ZS" role="2Oq$k0">
+                    <ref role="3cqZAo" node="14BXDeHPftY" resolve="sprite" />
+                  </node>
+                  <node concept="liA8E" id="5fYIkivRaDJ" role="2OqNvi">
+                    <ref role="37wK5l" to="h3zl:~Sprite.setFlip(boolean,boolean)" resolve="setFlip" />
+                    <node concept="3clFbT" id="5fYIkivRaHv" role="37wK5m">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                    <node concept="3clFbT" id="5fYIkivRaO7" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3clFbJ" id="14BXDeHPfxI" role="3cqZAp">
@@ -1209,6 +1216,18 @@
                         <ref role="37wK5l" to="2cyq:~Point.getY()" resolve="getY" />
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5fYIkivRbvY" role="3cqZAp">
+                <node concept="2OqwBi" id="5fYIkivRc2Z" role="3clFbG">
+                  <node concept="37vLTw" id="5fYIkivRbvW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="14BXDeHPftY" resolve="sprite" />
+                  </node>
+                  <node concept="liA8E" id="5fYIkivRcse" role="2OqNvi">
+                    <ref role="37wK5l" to="h3zl:~Sprite.setFlip(boolean,boolean)" resolve="setFlip" />
+                    <node concept="3clFbT" id="5fYIkivRcyJ" role="37wK5m" />
+                    <node concept="3clFbT" id="5fYIkivRcEF" role="37wK5m" />
                   </node>
                 </node>
               </node>
@@ -1360,24 +1379,6 @@
                   </node>
                   <node concept="liA8E" id="4z3B2Z4P5eT" role="2OqNvi">
                     <ref role="37wK5l" to="goua:~CollisionPoint.getRenderY()" resolve="getRenderY" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1X3_iC" id="WWq3oa4YYX" role="lGtFl">
-            <property role="3V$3am" value="statement" />
-            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-            <node concept="3clFbF" id="14BXDeHPfyU" role="8Wnug">
-              <node concept="2OqwBi" id="14BXDeHPfyV" role="3clFbG">
-                <node concept="37vLTw" id="14BXDeHPfyW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="14BXDeHPfCS" resolve="g" />
-                </node>
-                <node concept="liA8E" id="14BXDeHPfyX" role="2OqNvi">
-                  <ref role="37wK5l" to="h3zl:~Graphics.setBackgroundColor(com.badlogic.gdx.graphics.Color)" resolve="setBackgroundColor" />
-                  <node concept="10M0yZ" id="67eYYnPytWk" role="37wK5m">
-                    <ref role="3cqZAo" to="ylxi:~Color.WHITE" resolve="WHITE" />
-                    <ref role="1PxDUh" to="ylxi:~Color" resolve="Color" />
                   </node>
                 </node>
               </node>
