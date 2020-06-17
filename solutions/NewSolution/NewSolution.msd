@@ -4,41 +4,41 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="C:/Users/laury/Desktop/jarai" type="java_classes">
-      <sourceRoot location="gdx-1.9.8.jar" />
-      <sourceRoot location="mini2Dx-core-1.9.10.jar" />
-      <sourceRoot location="mini2Dx-desktop-1.9.10.jar" />
-      <sourceRoot location="gdx-backend-lwjgl-1.9.8.jar" />
-      <sourceRoot location="lwjgl-2.9.2.jar" />
-      <sourceRoot location="lwjgl-platform-2.9.2-natives-windows.jar" />
+    <modelRoot contentPath="C:/Users/laury/MPSProjects/Project/jars" type="java_classes">
       <sourceRoot location="annotations-2.0.1.jar" />
       <sourceRoot location="artemis-odb-2.1.0.jar" />
       <sourceRoot location="artemis-odb-serializer-2.1.0.jar" />
       <sourceRoot location="commons-lang3-3.1.jar" />
       <sourceRoot location="core-1.0.0.jar" />
+      <sourceRoot location="gdx-1.9.8.jar" />
+      <sourceRoot location="gdx-backend-lwjgl-1.9.8.jar" />
+      <sourceRoot location="gdx-controllers-1.9.8.jar" />
+      <sourceRoot location="gdx-controllers-desktop-1.9.8.jar" />
+      <sourceRoot location="gdx-controllers-platform-1.9.8-natives-desktop.jar" />
+      <sourceRoot location="gdx-freetype-1.9.8.jar" />
+      <sourceRoot location="gdx-freetype-platform-1.9.8-natives-desktop.jar" />
+      <sourceRoot location="gdx-platform-1.9.8-natives-desktop.jar" />
+      <sourceRoot location="guava-18.0.jar" />
+      <sourceRoot location="javassist-3.18.2-GA.jar" />
+      <sourceRoot location="jinput-2.0.5.jar" />
+      <sourceRoot location="jinput-platform-2.0.5-natives-linux.jar" />
+      <sourceRoot location="jinput-platform-2.0.5-natives-osx.jar" />
+      <sourceRoot location="jinput-platform-2.0.5-natives-windows.jar" />
+      <sourceRoot location="jlayer-1.0.1-gdx.jar" />
+      <sourceRoot location="jorbis-0.0.17.jar" />
+      <sourceRoot location="jutils-1.0.0.jar" />
+      <sourceRoot location="lwjgl-2.9.2.jar" />
+      <sourceRoot location="lwjgl-platform-2.9.2-natives-linux.jar" />
+      <sourceRoot location="lwjgl-platform-2.9.2-natives-osx.jar" />
+      <sourceRoot location="lwjgl-platform-2.9.2-natives-windows.jar" />
+      <sourceRoot location="lwjgl_util-2.9.2.jar" />
+      <sourceRoot location="mini2Dx-artemis-odb-1.9.10.jar" />
+      <sourceRoot location="mini2Dx-core-1.9.10.jar" />
+      <sourceRoot location="mini2Dx-desktop-1.9.10.jar" />
       <sourceRoot location="mini2Dx-tiled-1.9.10.jar" />
       <sourceRoot location="mini2Dx-ui-1.9.10.jar" />
       <sourceRoot location="natives-loader-1.0.0.jar" />
       <sourceRoot location="reflections-0.9.10.jar" />
-      <sourceRoot location="lwjgl-platform-2.9.2-natives-osx.jar" />
-      <sourceRoot location="lwjgl_util-2.9.2.jar" />
-      <sourceRoot location="mini2Dx-artemis-odb-1.9.10.jar" />
-      <sourceRoot location="lwjgl-platform-2.9.2-natives-linux.jar" />
-      <sourceRoot location="jutils-1.0.0.jar" />
-      <sourceRoot location="gdx-freetype-1.9.8.jar" />
-      <sourceRoot location="javassist-3.18.2-GA.jar" />
-      <sourceRoot location="gdx-freetype-platform-1.9.8-natives-desktop.jar" />
-      <sourceRoot location="gdx-controllers-1.9.8.jar" />
-      <sourceRoot location="jinput-platform-2.0.5-natives-osx.jar" />
-      <sourceRoot location="guava-18.0.jar" />
-      <sourceRoot location="gdx-controllers-platform-1.9.8-natives-desktop.jar" />
-      <sourceRoot location="jlayer-1.0.1-gdx.jar" />
-      <sourceRoot location="jinput-2.0.5.jar" />
-      <sourceRoot location="gdx-controllers-desktop-1.9.8.jar" />
-      <sourceRoot location="jorbis-0.0.17.jar" />
-      <sourceRoot location="jinput-platform-2.0.5-natives-windows.jar" />
-      <sourceRoot location="gdx-platform-1.9.8-natives-desktop.jar" />
-      <sourceRoot location="jinput-platform-2.0.5-natives-linux.jar" />
     </modelRoot>
   </models>
   <facets>
