@@ -3153,40 +3153,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="5fYIkivD6XS" role="3cqZAp" />
-          <node concept="3clFbF" id="WWq3oa9Ygg" role="3cqZAp">
-            <node concept="15s5l7" id="WWq3oa9Ygh" role="lGtFl">
-              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type string is not a subtype of ?no classifier?&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
-              <property role="huDt6" value="Error: type string is not a subtype of ?no classifier?" />
-            </node>
-            <node concept="37vLTI" id="WWq3oa9Ygi" role="3clFbG">
-              <node concept="2ShNRf" id="WWq3oa9Ygj" role="37vLTx">
-                <node concept="1pGfFk" id="WWq3oa9Ygk" role="2ShVmc">
-                  <ref role="37wK5l" to="h3zl:~Sprite.&lt;init&gt;(com.badlogic.gdx.graphics.Texture)" resolve="Sprite" />
-                  <node concept="2ShNRf" id="WWq3oa9Ygl" role="37wK5m">
-                    <node concept="1pGfFk" id="WWq3oa9Ygm" role="2ShVmc">
-                      <ref role="37wK5l" to="ylxi:~Texture.&lt;init&gt;(com.badlogic.gdx.files.FileHandle)" resolve="Texture" />
-                      <node concept="2OqwBi" id="WWq3oa9Ygn" role="37wK5m">
-                        <node concept="10M0yZ" id="WWq3oa9Ygo" role="2Oq$k0">
-                          <ref role="1PxDUh" to="cs5v:~Gdx" resolve="Gdx" />
-                          <ref role="3cqZAo" to="cs5v:~Gdx.files" resolve="files" />
-                        </node>
-                        <node concept="liA8E" id="WWq3oa9Ygp" role="2OqNvi">
-                          <ref role="37wK5l" to="cs5v:~Files.internal(java.lang.String)" resolve="internal" />
-                          <node concept="Xl_RD" id="WWq3oa9Ygq" role="37wK5m">
-                            <property role="Xl_RC" value="C:\\Users\\laury\\Downloads\\mini2Dx-project-generator-windows\\test\\assets\\background3.png" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="37vLTw" id="WWq3oaa5Ys" role="37vLTJ">
-                <ref role="3cqZAo" node="WWq3oaa3vw" resolve="backgroundImage" />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="58hplTQjOYe" role="3cqZAp">
             <node concept="2OqwBi" id="58hplTQjOYN" role="3clFbG">
               <node concept="10M0yZ" id="58hplTQjOYM" role="2Oq$k0">

@@ -51,8 +51,6 @@ public class oneWrongGame {
         backgroundImage = new Sprite(new Texture(Gdx.files.internal(f.getParent() + "/background3.png")));
       } catch (URISyntaxException e) {
       }
-
-      backgroundImage = new Sprite(new Texture(Gdx.files.internal("C:\\Users\\laury\\Downloads\\mini2Dx-project-generator-windows\\test\\assets\\background3.png")));
       Gdx.graphics.setWindowedMode(800, 600);
       questions.add(new OneWrongGame.Question("Sveicarija", "Lietuva", "Estija", "Ispanija"));
       questions.add(new OneWrongGame.Question("1", "2", "6", "8"));
