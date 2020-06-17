@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="QuizMaker.sandbox.connectGame">
+    <classNode dependClassName="com.badlogic.gdx.Gdx" />
+    <classNode dependClassName="com.badlogic.gdx.Input" />
+    <classNode dependClassName="com.badlogic.gdx.backends.lwjgl.DesktopMini2DxGame" />
+    <classNode dependClassName="com.badlogic.gdx.graphics.Color" />
+    <classNode dependClassName="com.badlogic.gdx.graphics.Texture" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.URISyntaxException" />
+    <classNode dependClassName="java.net.URL" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.mini2Dx.core.game.BasicGame" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Graphics" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Sprite" />
+    <classNode dependClassName="org.mini2Dx.desktop.DesktopMini2DxConfig" />
+  </dependency>
+  <dependency className="QuizMaker.sandbox.oneWrongGame">
+    <classNode dependClassName="com.badlogic.gdx.Gdx" />
+    <classNode dependClassName="com.badlogic.gdx.Input" />
+    <classNode dependClassName="com.badlogic.gdx.backends.lwjgl.DesktopMini2DxGame" />
+    <classNode dependClassName="com.badlogic.gdx.graphics.Texture" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.URISyntaxException" />
+    <classNode dependClassName="java.net.URL" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Random" />
+    <classNode dependClassName="org.mini2Dx.core.game.BasicGame" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Graphics" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Sprite" />
+    <classNode dependClassName="org.mini2Dx.desktop.DesktopMini2DxConfig" />
+  </dependency>
+  <dependency className="QuizMaker.sandbox.quizGame">
+    <classNode dependClassName="com.badlogic.gdx.Gdx" />
+    <classNode dependClassName="com.badlogic.gdx.Input" />
+    <classNode dependClassName="com.badlogic.gdx.backends.lwjgl.DesktopMini2DxGame" />
+    <classNode dependClassName="com.badlogic.gdx.graphics.Color" />
+    <classNode dependClassName="com.badlogic.gdx.graphics.Texture" />
+    <classNode dependClassName="com.badlogic.gdx.math.Vector2" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.URISyntaxException" />
+    <classNode dependClassName="java.net.URL" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Random" />
+    <classNode dependClassName="org.mini2Dx.core.engine.geom.CollisionPoint" />
+    <classNode dependClassName="org.mini2Dx.core.game.BasicGame" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Graphics" />
+    <classNode dependClassName="org.mini2Dx.core.graphics.Sprite" />
+    <classNode dependClassName="org.mini2Dx.desktop.DesktopMini2DxConfig" />
+  </dependency>
+</dependenciesRoot>
+

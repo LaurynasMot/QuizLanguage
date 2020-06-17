@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,85,0" name="QuizMaker.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,42,0" name="QuizMaker.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="16,0,157,0" name="QuizMaker.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/1236227736871989049">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1236227736871989049" at="17,0,18,0" concept="1" trace="props_Question" />
+      <node id="1236227736871989049" at="62,37,63,76" concept="3" />
+      <node id="1236227736871989049" at="63,76,64,40" concept="0" />
+      <node id="1236227736871989049" at="65,9,66,30" concept="4" />
+      <node id="1236227736871989049" at="61,42,65,9" concept="2" />
+      <scope id="1236227736871989049" at="62,37,64,40">
+        <var name="cpb" id="1236227736871989049" />
+      </scope>
+      <scope id="1236227736871989049" at="61,42,66,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1236227736871989049" at="17,0,18,0" concept="5" trace="Question" />
+      <node id="1236227736871989049" at="27,55,28,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1236227736871989049" at="22,0,23,0" concept="1" trace="myConceptQuestion" />
+      <node id="1236227736871989049" at="56,42,57,33" concept="4" />
+      <node id="1236227736871989049" at="126,66,127,152" concept="3" />
+      <node id="1236227736871989049" at="127,152,128,33" concept="0" />
+      <node id="1236227736871989049" at="128,33,129,96" concept="0" />
+      <node id="1236227736871989049" at="129,96,130,17" concept="0" />
+      <node id="1236227736871989049" at="130,17,131,22" concept="4" />
+      <node id="1236227736871989049" at="126,0,133,0" concept="6" trace="createDescriptorForQuestion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1236227736871989049" at="56,42,57,33" />
+      <scope id="1236227736871989049" at="126,66,131,22">
+        <var name="b" id="1236227736871989049" />
+      </scope>
+      <scope id="1236227736871989049" at="126,0,133,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/1236227736871989077">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1236227736871989077" at="19,0,20,0" concept="1" trace="props_ThreeAnswersQuestion" />
+      <node id="1236227736871989077" at="75,49,76,76" concept="3" />
+      <node id="1236227736871989077" at="76,76,77,53" concept="0" />
+      <node id="1236227736871989077" at="77,53,78,52" concept="0" />
+      <node id="1236227736871989077" at="79,9,80,42" concept="4" />
+      <node id="1236227736871989077" at="74,54,79,9" concept="2" />
+      <scope id="1236227736871989077" at="75,49,78,52">
+        <var name="cpb" id="1236227736871989077" />
+      </scope>
+      <scope id="1236227736871989077" at="74,54,80,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1236227736871989077" at="19,0,20,0" concept="5" trace="ThreeAnswersQuestion" />
+      <node id="1236227736871989077" at="29,43,30,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1236227736871989077" at="24,0,25,0" concept="1" trace="myConceptThreeAnswersQuestion" />
+      <node id="1236227736871989077" at="60,54,61,45" concept="4" />
+      <node id="1236227736871989077" at="143,78,144,164" concept="3" />
+      <node id="1236227736871989077" at="144,164,145,34" concept="0" />
+      <node id="1236227736871989077" at="145,34,146,108" concept="0" />
+      <node id="1236227736871989077" at="146,108,147,96" concept="0" />
+      <node id="1236227736871989077" at="147,96,148,17" concept="0" />
+      <node id="1236227736871989078" at="148,17,149,114" concept="0" />
+      <node id="1236227736871989080" at="149,114,150,119" concept="0" />
+      <node id="1236227736871989083" at="150,119,151,122" concept="0" />
+      <node id="1236227736871989087" at="151,122,152,123" concept="0" />
+      <node id="1236227736871989077" at="152,123,153,35" concept="0" />
+      <node id="1236227736871989077" at="153,35,154,22" concept="4" />
+      <node id="1236227736871989077" at="143,0,156,0" concept="6" trace="createDescriptorForThreeAnswersQuestion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1236227736871989077" at="60,54,61,45" />
+      <scope id="1236227736871989077" at="143,78,154,22">
+        <var name="b" id="1236227736871989077" />
+      </scope>
+      <scope id="1236227736871989077" at="143,0,156,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/1236227736871989102">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1236227736871989102" at="18,0,19,0" concept="1" trace="props_Quiz" />
+      <node id="1236227736871989102" at="68,33,69,76" concept="3" />
+      <node id="1236227736871989102" at="69,76,70,35" concept="0" />
+      <node id="1236227736871989102" at="70,35,71,36" concept="0" />
+      <node id="1236227736871989102" at="72,9,73,26" concept="4" />
+      <node id="1236227736871989102" at="67,38,72,9" concept="2" />
+      <scope id="1236227736871989102" at="68,33,71,36">
+        <var name="cpb" id="1236227736871989102" />
+      </scope>
+      <scope id="1236227736871989102" at="67,38,73,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1236227736871989102" at="18,0,19,0" concept="5" trace="Quiz" />
+      <node id="1236227736871989102" at="28,47,29,43" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1236227736871989102" at="23,0,24,0" concept="1" trace="myConceptQuiz" />
+      <node id="1236227736871989102" at="58,38,59,29" concept="4" />
+      <node id="1236227736871989102" at="133,62,134,148" concept="3" />
+      <node id="1236227736871989102" at="134,148,135,33" concept="0" />
+      <node id="1236227736871989102" at="135,33,136,71" concept="0" />
+      <node id="1236227736871989102" at="136,71,137,76" concept="0" />
+      <node id="1236227736871989102" at="137,76,138,96" concept="0" />
+      <node id="1236227736871989102" at="138,96,139,17" concept="0" />
+      <node id="1236227736871989105" at="139,17,140,201" concept="0" />
+      <node id="1236227736871989102" at="140,201,141,22" concept="4" />
+      <node id="1236227736871989102" at="133,0,143,0" concept="6" trace="createDescriptorForQuiz#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1236227736871989102" at="58,38,59,29" />
+      <scope id="1236227736871989102" at="133,62,141,22">
+        <var name="b" id="1236227736871989102" />
+      </scope>
+      <scope id="1236227736871989102" at="133,0,143,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/5913619242099350680">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5913619242099350680" at="15,0,16,0" concept="1" trace="props_OneWrongGame" />
+      <node id="5913619242099350680" at="48,41,49,76" concept="3" />
+      <node id="5913619242099350680" at="49,76,50,35" concept="0" />
+      <node id="5913619242099350680" at="50,35,51,44" concept="0" />
+      <node id="5913619242099350680" at="52,9,53,34" concept="4" />
+      <node id="5913619242099350680" at="47,46,52,9" concept="2" />
+      <scope id="5913619242099350680" at="48,41,51,44">
+        <var name="cpb" id="5913619242099350680" />
+      </scope>
+      <scope id="5913619242099350680" at="47,46,53,34" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5913619242099350680" at="15,0,16,0" concept="5" trace="OneWrongGame" />
+      <node id="5913619242099350680" at="25,54,26,51" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5913619242099350680" at="20,0,21,0" concept="1" trace="myConceptOneWrongGame" />
+      <node id="5913619242099350680" at="52,46,53,37" concept="4" />
+      <node id="5913619242099350680" at="104,70,105,156" concept="3" />
+      <node id="5913619242099350680" at="105,156,106,33" concept="0" />
+      <node id="5913619242099350680" at="106,33,107,71" concept="0" />
+      <node id="5913619242099350680" at="107,71,108,76" concept="0" />
+      <node id="5913619242099350680" at="108,76,109,96" concept="0" />
+      <node id="5913619242099350680" at="109,96,110,17" concept="0" />
+      <node id="5913619242099350691" at="110,17,111,209" concept="0" />
+      <node id="5913619242099350680" at="111,209,112,22" concept="4" />
+      <node id="5913619242099350680" at="104,0,114,0" concept="6" trace="createDescriptorForOneWrongGame#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5913619242099350680" at="52,46,53,37" />
+      <scope id="5913619242099350680" at="104,70,112,22">
+        <var name="b" id="5913619242099350680" />
+      </scope>
+      <scope id="5913619242099350680" at="104,0,114,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/5913619242099350690">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5913619242099350690" at="16,0,17,0" concept="1" trace="props_OneWrongQuestion" />
+      <node id="5913619242099350690" at="55,45,56,76" concept="3" />
+      <node id="5913619242099350690" at="56,76,57,50" concept="0" />
+      <node id="5913619242099350690" at="57,50,58,48" concept="0" />
+      <node id="5913619242099350690" at="59,9,60,38" concept="4" />
+      <node id="5913619242099350690" at="54,50,59,9" concept="2" />
+      <scope id="5913619242099350690" at="55,45,58,48">
+        <var name="cpb" id="5913619242099350690" />
+      </scope>
+      <scope id="5913619242099350690" at="54,50,60,38" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5913619242099350690" at="16,0,17,0" concept="5" trace="OneWrongQuestion" />
+      <node id="5913619242099350690" at="26,51,27,55" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5913619242099350690" at="21,0,22,0" concept="1" trace="myConceptOneWrongQuestion" />
+      <node id="5913619242099350690" at="54,50,55,41" concept="4" />
+      <node id="5913619242099350690" at="114,74,115,160" concept="3" />
+      <node id="5913619242099350690" at="115,160,116,34" concept="0" />
+      <node id="5913619242099350690" at="116,34,117,108" concept="0" />
+      <node id="5913619242099350690" at="117,108,118,96" concept="0" />
+      <node id="5913619242099350690" at="118,96,119,17" concept="0" />
+      <node id="5913619242099350693" at="119,17,120,111" concept="0" />
+      <node id="5913619242099350695" at="120,111,121,116" concept="0" />
+      <node id="5913619242099350698" at="121,116,122,116" concept="0" />
+      <node id="5913619242099350702" at="122,116,123,118" concept="0" />
+      <node id="5913619242099350690" at="123,118,124,22" concept="4" />
+      <node id="5913619242099350690" at="114,0,126,0" concept="6" trace="createDescriptorForOneWrongQuestion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5913619242099350690" at="54,50,55,41" />
+      <scope id="5913619242099350690" at="114,74,124,22">
+        <var name="b" id="5913619242099350690" />
+      </scope>
+      <scope id="5913619242099350690" at="114,0,126,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/7075307902135519513">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7075307902135519513" at="13,0,14,0" concept="1" trace="props_ConnectGame" />
+      <node id="7075307902135519513" at="34,40,35,76" concept="3" />
+      <node id="7075307902135519513" at="35,76,36,35" concept="0" />
+      <node id="7075307902135519513" at="36,35,37,43" concept="0" />
+      <node id="7075307902135519513" at="38,9,39,33" concept="4" />
+      <node id="7075307902135519513" at="33,45,38,9" concept="2" />
+      <scope id="7075307902135519513" at="34,40,37,43">
+        <var name="cpb" id="7075307902135519513" />
+      </scope>
+      <scope id="7075307902135519513" at="33,45,39,33" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7075307902135519513" at="13,0,14,0" concept="5" trace="ConnectGame" />
+      <node id="7075307902135519513" at="23,56,24,50" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7075307902135519513" at="18,0,19,0" concept="1" trace="myConceptConnectGame" />
+      <node id="7075307902135519513" at="48,45,49,36" concept="4" />
+      <node id="7075307902135519513" at="85,69,86,155" concept="3" />
+      <node id="7075307902135519513" at="86,155,87,33" concept="0" />
+      <node id="7075307902135519513" at="87,33,88,71" concept="0" />
+      <node id="7075307902135519513" at="88,71,89,76" concept="0" />
+      <node id="7075307902135519513" at="89,76,90,96" concept="0" />
+      <node id="7075307902135519513" at="90,96,91,17" concept="0" />
+      <node id="7075307902135519519" at="91,17,92,208" concept="0" />
+      <node id="7075307902135519513" at="92,208,93,22" concept="4" />
+      <node id="7075307902135519513" at="85,0,95,0" concept="6" trace="createDescriptorForConnectGame#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7075307902135519513" at="48,45,49,36" />
+      <scope id="7075307902135519513" at="85,69,93,22">
+        <var name="b" id="7075307902135519513" />
+      </scope>
+      <scope id="7075307902135519513" at="85,0,95,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/7075307902135519518">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7075307902135519518" at="14,0,15,0" concept="1" trace="props_ConnectQuestion" />
+      <node id="7075307902135519518" at="41,44,42,76" concept="3" />
+      <node id="7075307902135519518" at="42,76,43,49" concept="0" />
+      <node id="7075307902135519518" at="43,49,44,47" concept="0" />
+      <node id="7075307902135519518" at="45,9,46,37" concept="4" />
+      <node id="7075307902135519518" at="40,49,45,9" concept="2" />
+      <scope id="7075307902135519518" at="41,44,44,47">
+        <var name="cpb" id="7075307902135519518" />
+      </scope>
+      <scope id="7075307902135519518" at="40,49,46,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7075307902135519518" at="14,0,15,0" concept="5" trace="ConnectQuestion" />
+      <node id="7075307902135519518" at="24,50,25,54" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7075307902135519518" at="19,0,20,0" concept="1" trace="myConceptConnectQuestion" />
+      <node id="7075307902135519518" at="50,49,51,40" concept="4" />
+      <node id="7075307902135519518" at="95,73,96,159" concept="3" />
+      <node id="7075307902135519518" at="96,159,97,34" concept="0" />
+      <node id="7075307902135519518" at="97,34,98,108" concept="0" />
+      <node id="7075307902135519518" at="98,108,99,96" concept="0" />
+      <node id="7075307902135519518" at="99,96,100,17" concept="0" />
+      <node id="7075307902135667146" at="100,17,101,203" concept="0" />
+      <node id="7075307902135519518" at="101,203,102,22" concept="4" />
+      <node id="7075307902135519518" at="95,0,104,0" concept="6" trace="createDescriptorForConnectQuestion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7075307902135519518" at="50,49,51,40" />
+      <scope id="7075307902135519518" at="95,73,102,22">
+        <var name="b" id="7075307902135519518" />
+      </scope>
+      <scope id="7075307902135519518" at="95,0,104,0" />
+    </file>
+  </root>
+  <root nodeRef="r:89548611-525a-4e43-9250-b4d78c65413c(QuizMaker.structure)/7075307902135519797">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7075307902135519797" at="12,0,13,0" concept="1" trace="props_ConnectConnection" />
+      <node id="7075307902135519797" at="27,46,28,76" concept="3" />
+      <node id="7075307902135519797" at="28,76,29,51" concept="0" />
+      <node id="7075307902135519797" at="29,51,30,49" concept="0" />
+      <node id="7075307902135519797" at="31,9,32,39" concept="4" />
+      <node id="7075307902135519797" at="26,51,31,9" concept="2" />
+      <scope id="7075307902135519797" at="27,46,30,49">
+        <var name="cpb" id="7075307902135519797" />
+      </scope>
+      <scope id="7075307902135519797" at="26,51,32,39" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7075307902135519797" at="12,0,13,0" concept="5" trace="ConnectConnection" />
+      <node id="7075307902135519797" at="22,116,23,56" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7075307902135519797" at="17,0,18,0" concept="1" trace="myConceptConnectConnection" />
+      <node id="7075307902135519797" at="46,51,47,42" concept="4" />
+      <node id="7075307902135519797" at="76,75,77,161" concept="3" />
+      <node id="7075307902135519797" at="77,161,78,34" concept="0" />
+      <node id="7075307902135519797" at="78,34,79,96" concept="0" />
+      <node id="7075307902135519797" at="79,96,80,17" concept="0" />
+      <node id="7075307902135519800" at="80,17,81,115" concept="0" />
+      <node id="7075307902135519802" at="81,115,82,116" concept="0" />
+      <node id="7075307902135519797" at="82,116,83,22" concept="4" />
+      <node id="7075307902135519797" at="76,0,85,0" concept="6" trace="createDescriptorForConnectConnection#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7075307902135519797" at="46,51,47,42" />
+      <scope id="7075307902135519797" at="76,75,83,22">
+        <var name="b" id="7075307902135519797" />
+      </scope>
+      <scope id="7075307902135519797" at="76,0,85,0" />
+    </file>
+  </root>
+</debug-info>
+
